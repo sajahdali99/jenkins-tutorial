@@ -1,7 +1,7 @@
 pipeline{
         agent any
         stages{
-            stages('Make Directory'){
+            stage('Make Directory'){
                 steps{
                     sh "mkdir ~/jenkins-tutorial-test"
                 }
